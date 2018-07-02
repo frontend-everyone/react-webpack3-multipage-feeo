@@ -6,3 +6,4 @@ entryBuild/
 pc/
 backup/
 npm-debug*
+package-lock.json
