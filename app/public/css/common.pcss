@@ -1,0 +1,50 @@
+/**
+ * Created by Kirk liu on 2018/1/18.
+ */
+i {
+  display: inline-block;
+  background-size: contain;
+}
+.layer {
+  &.toast {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+#app {
+  > .header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    .ico-header-logo {
+      width: 100px;
+      height: 100px;
+      background-image: url("../img/ico-header-logo.png");
+    }
+    .nav {
+      a {
+        margin-right: 10px;
+        color: blue;
+        &.selected {
+          color: #f00000;
+        }
+      }
+    }
+  }
+  > .footer {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    .ico-footer-logo {
+      width: 240px;
+      height: 130px;
+      background-image: url("../img/ico-footer-logo.png");
+    }
+  }
+}

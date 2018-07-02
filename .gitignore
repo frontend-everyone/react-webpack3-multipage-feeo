@@ -1,0 +1,8 @@
+.idea/
+.cache-loader/
+node_modules/
+build/
+entryBuild/
+pc/
+backup/
+npm-debug*
